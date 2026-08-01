@@ -1,0 +1,259 @@
+{
+  "lastRun": "2026-08-01T20:34:16.087Z",
+  "setups": [
+    {
+      "id": "setup_17784567640239_0f51y",
+      "name": "Solana V1",
+      "symbol": "SOLUSDT",
+      "htfGran": "4H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 36,
+      "htfSlow": 97,
+      "ltfFast": 107,
+      "ltfSlow": 181
+    },
+    {
+      "id": "setup_1781337825150_dhv01",
+      "name": "Solana V2",
+      "symbol": "SOLUSDT",
+      "htfGran": "4H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 89,
+      "htfSlow": 192,
+      "ltfFast": 89,
+      "ltfSlow": 192
+    },
+    {
+      "id": "setup_1781338064805_vz8wp",
+      "name": "Solana V3",
+      "symbol": "SOLUSDT",
+      "htfGran": "4H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 36,
+      "htfSlow": 100,
+      "ltfFast": 98,
+      "ltfSlow": 178
+    },
+    {
+      "id": "setup_1781338266405_ejuoh",
+      "name": "Solana V4",
+      "symbol": "SOLUSDT",
+      "htfGran": "2H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 52,
+      "htfSlow": 118,
+      "ltfFast": 38,
+      "ltfSlow": 234
+    },
+    {
+      "id": "setup_1781338400021_k4qll",
+      "name": "Solana V5",
+      "symbol": "SOLUSDT",
+      "htfGran": "2H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 52,
+      "htfSlow": 118,
+      "ltfFast": 89,
+      "ltfSlow": 192
+    },
+    {
+      "id": "setup_1781338558612_9rqtx",
+      "name": "Solana V6",
+      "symbol": "SOLUSDT",
+      "htfGran": "2H",
+      "ltfGran": "2H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 66,
+      "htfSlow": 147,
+      "ltfFast": 188,
+      "ltfSlow": 269
+    },
+    {
+      "id": "setup_1781338636876_6bmnr",
+      "name": "Solana V7",
+      "symbol": "SOLUSDT",
+      "htfGran": "2H",
+      "ltfGran": "2H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 218,
+      "htfSlow": 332,
+      "ltfFast": 71,
+      "ltfSlow": 204
+    },
+    {
+      "id": "setup_1781338791788_df83g",
+      "name": "Solana V8",
+      "symbol": "SOLUSDT",
+      "htfGran": "2H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 188,
+      "htfSlow": 269,
+      "ltfFast": 34,
+      "ltfSlow": 69
+    },
+    {
+      "id": "setup_1781338870964_caxgn",
+      "name": "Solana V9",
+      "symbol": "SOLUSDT",
+      "htfGran": "2H",
+      "ltfGran": "2H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 188,
+      "htfSlow": 269,
+      "ltfFast": 66,
+      "ltfSlow": 144
+    },
+    {
+      "id": "setup_1781338950043_pak23",
+      "name": "Solana V10",
+      "symbol": "SOLUSDT",
+      "htfGran": "4H",
+      "ltfGran": "2H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 38,
+      "htfSlow": 234,
+      "ltfFast": 66,
+      "ltfSlow": 147
+    },
+    {
+      "id": "setup_1781339054523_t337n",
+      "name": "Solana V11",
+      "symbol": "SOLUSDT",
+      "htfGran": "4H",
+      "ltfGran": "4H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 52,
+      "htfSlow": 214,
+      "ltfFast": 24,
+      "ltfSlow": 53
+    },
+    {
+      "id": "setup_1781339208612_kpl34",
+      "name": "Solana V12",
+      "symbol": "SOLUSDT",
+      "htfGran": "4H",
+      "ltfGran": "2H",
+      "htfTotal": 20000,
+      "ltfTotal": 20000,
+      "htfFast": 24,
+      "htfSlow": 53,
+      "ltfFast": 44,
+      "ltfSlow": 88
+    }
+  ],
+  "summary": [
+    {
+      "id": "setup_17784567640239_0f51y",
+      "name": "Solana V1",
+      "status": "ok",
+      "htfCount": 54,
+      "ltfCount": 24,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781337825150_dhv01",
+      "name": "Solana V2",
+      "status": "ok",
+      "htfCount": 22,
+      "ltfCount": 22,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338064805_vz8wp",
+      "name": "Solana V3",
+      "status": "ok",
+      "htfCount": 50,
+      "ltfCount": 22,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338266405_ejuoh",
+      "name": "Solana V4",
+      "status": "ok",
+      "htfCount": 80,
+      "ltfCount": 25,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338400021_k4qll",
+      "name": "Solana V5",
+      "status": "ok",
+      "htfCount": 80,
+      "ltfCount": 22,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338558612_9rqtx",
+      "name": "Solana V6",
+      "status": "ok",
+      "htfCount": 68,
+      "ltfCount": 40,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338636876_6bmnr",
+      "name": "Solana V7",
+      "status": "ok",
+      "htfCount": 30,
+      "ltfCount": 48,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338791788_df83g",
+      "name": "Solana V8",
+      "status": "ok",
+      "htfCount": 40,
+      "ltfCount": 76,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338870964_caxgn",
+      "name": "Solana V9",
+      "status": "ok",
+      "htfCount": 40,
+      "ltfCount": 68,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781338950043_pak23",
+      "name": "Solana V10",
+      "status": "ok",
+      "htfCount": 25,
+      "ltfCount": 68,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781339054523_t337n",
+      "name": "Solana V11",
+      "status": "ok",
+      "htfCount": 21,
+      "ltfCount": 94,
+      "changes": 0
+    },
+    {
+      "id": "setup_1781339208612_kpl34",
+      "name": "Solana V12",
+      "status": "ok",
+      "htfCount": 94,
+      "ltfCount": 110,
+      "changes": 0
+    }
+  ]
+}
