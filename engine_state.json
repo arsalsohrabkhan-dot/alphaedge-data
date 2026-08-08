@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-08T16:08:00.861Z",
+  "lastUpdated": "2026-08-08T18:09:26.349Z",
   "runningCapital": 170.77025766,
   "capitalBefore": {
     "amount": 170.77025766,
-    "checkedAt": "2026-08-08T16:07:59.919Z"
+    "checkedAt": "2026-08-08T18:09:25.270Z"
   },
   "capitalAfter": {
     "amount": 170.77025766,
-    "checkedAt": "2026-08-08T16:08:00.234Z"
+    "checkedAt": "2026-08-08T18:09:25.647Z"
   },
   "executedTrades": [
     {
@@ -251,8 +251,8 @@
       "signals_ongoing": true,
       "signals_exit_time": "2026-08-08 12:00:00",
       "signals_exit_reason": "end_of_data",
-      "signals_exit_price": 76.337,
-      "signals_pnl_pct": -2.009809,
+      "signals_exit_price": 76.347,
+      "signals_pnl_pct": -2.023172,
       "last_known_price": 72.948,
       "exec_status": "closed"
     },
@@ -374,8 +374,8 @@
       "signals_ongoing": true,
       "signals_exit_time": "2026-08-08 12:00:00",
       "signals_exit_reason": "end_of_data",
-      "signals_exit_price": 76.337,
-      "signals_pnl_pct": -4.224294,
+      "signals_exit_price": 76.347,
+      "signals_pnl_pct": -4.237948,
       "last_known_price": 72.947,
       "exec_status": "closed"
     },
@@ -463,6 +463,60 @@
     }
   ],
   "runLog": [
+    {
+      "ts": "2026-08-08T18:09:25.665Z",
+      "capital": 170.77025766,
+      "capacity": "119.54",
+      "inUse": "0.00",
+      "available": "119.54",
+      "opened": 0,
+      "closed": 0,
+      "trackedTrades": 11,
+      "byStatus": {
+        "closed": 11
+      },
+      "logLines": [
+        "[2026-08-08 18:09:25] ════════════════════════════════════════════════════",
+        "[2026-08-08 18:09:25]   Bitget USDT-M Futures Engine — Starting",
+        "[2026-08-08 18:09:25]   2026-08-08T18:09:25.265Z",
+        "[2026-08-08 18:09:25] ════════════════════════════════════════════════════",
+        "[2026-08-08 18:09:25]   Mode:      FUTURES (USDT-FUTURES) — native exchange TP/SL, both LONG + SHORT",
+        "[2026-08-08 18:09:25]   Demo mode: NO (REAL FUNDS)",
+        "[2026-08-08 18:09:25]   API ready: YES",
+        "[2026-08-08 18:09:25]   Setups:    12",
+        "[2026-08-08 18:09:25]   Capacity:  70% of capital",
+        "[2026-08-08 18:09:25]   New trades: ▶ enabled",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Step 0: Fetching live futures account equity",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   💰 Live USDT equity: 170.77025766 USDT",
+        "[2026-08-08 18:09:25]   💰 Live equity: 170.77025766 USDT",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Step 1: Monitor open trades (TP/SL outcomes + protection retries)",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Summary: closed=0 protected_on_retry=0",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Step 2: MA cross exit (cross_exit signals only)",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Summary: closed=0 dropped_not_ours=248",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Step 3: Open new trades (LONG + SHORT) and place TP/SL",
+        "[2026-08-08 18:09:25] ──────────────────────────────────────────────────────",
+        "[2026-08-08 18:09:25]   Summary: opened=0 dropped=0",
+        "[2026-08-08 18:09:25] ",
+        "[2026-08-08 18:09:25] ════════════════════════════════════════════════════",
+        "[2026-08-08 18:09:25]   Run Summary",
+        "[2026-08-08 18:09:25]   Capital:        170.77025766 USDT",
+        "[2026-08-08 18:09:25]   Capacity(70%): 119.54 USDT",
+        "[2026-08-08 18:09:25]   In Use (margin): 0.00 USDT",
+        "[2026-08-08 18:09:25]   Available:       119.54 USDT",
+        "[2026-08-08 18:09:25]   Opened:          0 trade(s)",
+        "[2026-08-08 18:09:25]   Closed:          0 trade(s)",
+        "[2026-08-08 18:09:25]   Tracked total:   11 trade(s)",
+        "[2026-08-08 18:09:25]     closed                : 11",
+        "[2026-08-08 18:09:25] ════════════════════════════════════════════════════"
+      ]
+    },
     {
       "ts": "2026-08-08T16:08:00.255Z",
       "capital": 170.77025766,
@@ -5905,65 +5959,6 @@
         "[2026-07-23 10:08:20]     closed                : 1",
         "[2026-07-23 10:08:20]     open_protected        : 4",
         "[2026-07-23 10:08:20] ════════════════════════════════════════════════════"
-      ]
-    },
-    {
-      "ts": "2026-07-23T08:08:27.376Z",
-      "capital": 651.25338754,
-      "capacity": "455.88",
-      "inUse": "61.00",
-      "available": "394.88",
-      "opened": 0,
-      "closed": 0,
-      "trackedTrades": 5,
-      "byStatus": {
-        "closed": 1,
-        "open_protected": 4
-      },
-      "logLines": [
-        "[2026-07-23 08:08:26] ════════════════════════════════════════════════════",
-        "[2026-07-23 08:08:26]   Bitget USDT-M Futures Engine — Starting",
-        "[2026-07-23 08:08:26]   2026-07-23T08:08:26.223Z",
-        "[2026-07-23 08:08:26] ════════════════════════════════════════════════════",
-        "[2026-07-23 08:08:26]   Mode:      FUTURES (USDT-FUTURES) — native exchange TP/SL, both LONG + SHORT",
-        "[2026-07-23 08:08:26]   Demo mode: NO (REAL FUNDS)",
-        "[2026-07-23 08:08:26]   API ready: YES",
-        "[2026-07-23 08:08:26]   Setups:    12",
-        "[2026-07-23 08:08:26]   Capacity:  70% of capital",
-        "[2026-07-23 08:08:26]   New trades: ▶ enabled",
-        "[2026-07-23 08:08:26] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:26]   Step 0: Fetching live futures account equity",
-        "[2026-07-23 08:08:26] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:26]   💰 Live equity: 651.25338754 USDT",
-        "[2026-07-23 08:08:26] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:26]   Step 1: Monitor open trades (TP/SL outcomes + protection retries)",
-        "[2026-07-23 08:08:26] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:26]     🔎 unfilled-strategy-orders(type=tpsl) raw response: {\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1784794106718,\"data\":[{\"orderId\":\"1464007364437327892\",\"clientOid\":\"1464007364437327892\",\"symbol\":\"SOLUSDT\",\"category\":\"USDT-FUTURES\",\"qty\":\"1.2\",\"posSide\":\"long\",\"tpTriggerBy\":\"mark\",\"slTriggerBy\":\"mark\",\"takeProfit\":\"85.637\",\"stopLoss\":\"70.067\",\"tpOrderType\":\"market\",\"slOrderType\":\"market\",\"tpLimitPrice\":\"\",\"slLimitPrice\":\"\",\"createdTime\":\"1784772476",
-        "[2026-07-23 08:08:27]     🔎 unfilled-strategy-orders(type=tpsl) raw response: {\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1784794106903,\"data\":[{\"orderId\":\"1464007364437327892\",\"clientOid\":\"1464007364437327892\",\"symbol\":\"SOLUSDT\",\"category\":\"USDT-FUTURES\",\"qty\":\"1.2\",\"posSide\":\"long\",\"tpTriggerBy\":\"mark\",\"slTriggerBy\":\"mark\",\"takeProfit\":\"85.637\",\"stopLoss\":\"70.067\",\"tpOrderType\":\"market\",\"slOrderType\":\"market\",\"tpLimitPrice\":\"\",\"slLimitPrice\":\"\",\"createdTime\":\"1784772476",
-        "[2026-07-23 08:08:27]     🔎 unfilled-strategy-orders(type=tpsl) raw response: {\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1784794107102,\"data\":[{\"orderId\":\"1464007364437327892\",\"clientOid\":\"1464007364437327892\",\"symbol\":\"SOLUSDT\",\"category\":\"USDT-FUTURES\",\"qty\":\"1.2\",\"posSide\":\"long\",\"tpTriggerBy\":\"mark\",\"slTriggerBy\":\"mark\",\"takeProfit\":\"85.637\",\"stopLoss\":\"70.067\",\"tpOrderType\":\"market\",\"slOrderType\":\"market\",\"tpLimitPrice\":\"\",\"slLimitPrice\":\"\",\"createdTime\":\"1784772476",
-        "[2026-07-23 08:08:27]     🔎 unfilled-strategy-orders(type=tpsl) raw response: {\"code\":\"00000\",\"msg\":\"success\",\"requestTime\":1784794107281,\"data\":[{\"orderId\":\"1464007364437327892\",\"clientOid\":\"1464007364437327892\",\"symbol\":\"SOLUSDT\",\"category\":\"USDT-FUTURES\",\"qty\":\"1.2\",\"posSide\":\"long\",\"tpTriggerBy\":\"mark\",\"slTriggerBy\":\"mark\",\"takeProfit\":\"85.637\",\"stopLoss\":\"70.067\",\"tpOrderType\":\"market\",\"slOrderType\":\"market\",\"tpLimitPrice\":\"\",\"slLimitPrice\":\"\",\"createdTime\":\"1784772476",
-        "[2026-07-23 08:08:27]   Summary: closed=0 protected_on_retry=0",
-        "[2026-07-23 08:08:27] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:27]   Step 2: Backtest-driven close (cancel live TP/SL, then close)",
-        "[2026-07-23 08:08:27] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:27]   Summary: closed=0 dropped_not_ours=241",
-        "[2026-07-23 08:08:27] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:27]   Step 3: Open new trades (LONG + SHORT) and place TP/SL",
-        "[2026-07-23 08:08:27] ──────────────────────────────────────────────────────",
-        "[2026-07-23 08:08:27]   Summary: opened=0 dropped=0",
-        "[2026-07-23 08:08:27] ",
-        "[2026-07-23 08:08:27] ════════════════════════════════════════════════════",
-        "[2026-07-23 08:08:27]   Run Summary",
-        "[2026-07-23 08:08:27]   Capital:        651.25338754 USDT",
-        "[2026-07-23 08:08:27]   Capacity(70%): 455.88 USDT",
-        "[2026-07-23 08:08:27]   In Use (margin): 61.00 USDT",
-        "[2026-07-23 08:08:27]   Available:       394.88 USDT",
-        "[2026-07-23 08:08:27]   Opened:          0 trade(s)",
-        "[2026-07-23 08:08:27]   Closed:          0 trade(s)",
-        "[2026-07-23 08:08:27]   Tracked total:   5 trade(s)",
-        "[2026-07-23 08:08:27]     closed                : 1",
-        "[2026-07-23 08:08:27]     open_protected        : 4",
-        "[2026-07-23 08:08:27] ════════════════════════════════════════════════════"
       ]
     }
   ]
