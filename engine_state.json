@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-16T00:08:27.610Z",
+  "lastUpdated": "2026-08-16T02:08:20.237Z",
   "runningCapital": 505.27025766,
   "capitalBefore": {
     "amount": 505.27025766,
-    "checkedAt": "2026-08-16T00:08:25.530Z"
+    "checkedAt": "2026-08-16T02:08:18.289Z"
   },
   "capitalAfter": {
     "amount": 505.27025766,
-    "checkedAt": "2026-08-16T00:08:26.095Z"
+    "checkedAt": "2026-08-16T02:08:18.676Z"
   },
   "executedTrades": [
     {
@@ -251,8 +251,8 @@
       "signals_ongoing": true,
       "signals_exit_time": "2026-08-15 20:00:00",
       "signals_exit_reason": "end_of_data",
-      "signals_exit_price": 75.331,
-      "signals_pnl_pct": -0.665482,
+      "signals_exit_price": 75.315,
+      "signals_pnl_pct": -0.644101,
       "last_known_price": 72.948,
       "exec_status": "closed"
     },
@@ -463,6 +463,67 @@
     }
   ],
   "runLog": [
+    {
+      "ts": "2026-08-16T02:08:19.544Z",
+      "capital": 505.27025766,
+      "capacity": "353.69",
+      "inUse": "0.00",
+      "available": "353.69",
+      "opened": 0,
+      "closed": 0,
+      "trackedTrades": 11,
+      "byStatus": {
+        "closed": 11
+      },
+      "logLines": [
+        "[2026-08-16 02:08:18] ════════════════════════════════════════════════════",
+        "[2026-08-16 02:08:18]   Bitget USDT-M Futures Engine — Starting",
+        "[2026-08-16 02:08:18]   2026-08-16T02:08:18.283Z",
+        "[2026-08-16 02:08:18] ════════════════════════════════════════════════════",
+        "[2026-08-16 02:08:18]   Mode:      FUTURES (USDT-FUTURES) — native exchange TP/SL, both LONG + SHORT",
+        "[2026-08-16 02:08:18]   Demo mode: NO (REAL FUNDS)",
+        "[2026-08-16 02:08:18]   API ready: YES",
+        "[2026-08-16 02:08:18]   Setups:    12",
+        "[2026-08-16 02:08:18]   Capacity:  70% of capital",
+        "[2026-08-16 02:08:18]   New trades: ▶ enabled",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   Step 0: Fetching live futures account equity",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   💰 Live USDT equity: 505.27025766 USDT",
+        "[2026-08-16 02:08:18]   💰 Live equity: 505.27025766 USDT",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   Step 1: Monitor open trades (TP/SL outcomes + protection retries)",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   Summary: closed=0 protected_on_retry=0",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   Step 2: MA cross exit (cross_exit signals only)",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   Summary: closed=0 dropped_not_ours=249",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:18]   Step 3: Open new trades (LONG + SHORT) and place TP/SL",
+        "[2026-08-16 02:08:18] ──────────────────────────────────────────────────────",
+        "[2026-08-16 02:08:19]     ℹ SOLUSDT contract spec: minOrderQty=0.1  minOrderAmount=5USDT  qtyStep=0.1  qtyPrecision=1  priceTick=0.001  pricePrecision=3",
+        "[2026-08-16 02:08:19]   ▶ OPEN LONG Solana V6 [di] SOLUSDT  live=75.356  TP=79.145  SL=71.607  qty=1.4",
+        "[2026-08-16 02:08:19]     ⚠ set-leverage(SOLUSDT, 11x, crossed) responded: {\"code\":\"40014\",\"msg\":\"Incorrect permissions, need UTA manage write permissions\",\"requestTime\":1786846099124,\"data\":null}",
+        "[2026-08-16 02:08:19]   ❌ Could not set leverage for SOLUSDT — not tracked, will retry next run",
+        "[2026-08-16 02:08:19]   ▶ OPEN LONG Solana V4 [di] SOLUSDT  live=75.356  TP=79.977  SL=72.361  qty=1.4",
+        "[2026-08-16 02:08:19]     ⚠ set-leverage(SOLUSDT, 11x, crossed) responded: {\"code\":\"40014\",\"msg\":\"Incorrect permissions, need UTA manage write permissions\",\"requestTime\":1786846099468,\"data\":null}",
+        "[2026-08-16 02:08:19]   ❌ Could not set leverage for SOLUSDT — not tracked, will retry next run",
+        "[2026-08-16 02:08:19]   Summary: opened=0 dropped=0",
+        "[2026-08-16 02:08:19] ",
+        "[2026-08-16 02:08:19] ════════════════════════════════════════════════════",
+        "[2026-08-16 02:08:19]   Run Summary",
+        "[2026-08-16 02:08:19]   Capital:        505.27025766 USDT",
+        "[2026-08-16 02:08:19]   Capacity(70%): 353.69 USDT",
+        "[2026-08-16 02:08:19]   In Use (margin): 0.00 USDT",
+        "[2026-08-16 02:08:19]   Available:       353.69 USDT",
+        "[2026-08-16 02:08:19]   Opened:          0 trade(s)",
+        "[2026-08-16 02:08:19]   Closed:          0 trade(s)",
+        "[2026-08-16 02:08:19]   Tracked total:   11 trade(s)",
+        "[2026-08-16 02:08:19]     closed                : 11",
+        "[2026-08-16 02:08:19] ════════════════════════════════════════════════════"
+      ]
+    },
     {
       "ts": "2026-08-16T00:08:26.936Z",
       "capital": 505.27025766,
@@ -5959,60 +6020,6 @@
         "[2026-08-07 22:07:58]   Tracked total:   11 trade(s)",
         "[2026-08-07 22:07:58]     closed                : 11",
         "[2026-08-07 22:07:58] ════════════════════════════════════════════════════"
-      ]
-    },
-    {
-      "ts": "2026-08-07T20:08:43.134Z",
-      "capital": 170.77025766,
-      "capacity": "119.54",
-      "inUse": "0.00",
-      "available": "119.54",
-      "opened": 0,
-      "closed": 0,
-      "trackedTrades": 11,
-      "byStatus": {
-        "closed": 11
-      },
-      "logLines": [
-        "[2026-08-07 20:08:42] ════════════════════════════════════════════════════",
-        "[2026-08-07 20:08:42]   Bitget USDT-M Futures Engine — Starting",
-        "[2026-08-07 20:08:42]   2026-08-07T20:08:42.824Z",
-        "[2026-08-07 20:08:42] ════════════════════════════════════════════════════",
-        "[2026-08-07 20:08:42]   Mode:      FUTURES (USDT-FUTURES) — native exchange TP/SL, both LONG + SHORT",
-        "[2026-08-07 20:08:42]   Demo mode: NO (REAL FUNDS)",
-        "[2026-08-07 20:08:42]   API ready: YES",
-        "[2026-08-07 20:08:42]   Setups:    12",
-        "[2026-08-07 20:08:42]   Capacity:  70% of capital",
-        "[2026-08-07 20:08:42]   New trades: ▶ enabled",
-        "[2026-08-07 20:08:42] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:42]   Step 0: Fetching live futures account equity",
-        "[2026-08-07 20:08:42] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   💰 Live USDT equity: 170.77025766 USDT",
-        "[2026-08-07 20:08:43]   💰 Live equity: 170.77025766 USDT",
-        "[2026-08-07 20:08:43] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   Step 1: Monitor open trades (TP/SL outcomes + protection retries)",
-        "[2026-08-07 20:08:43] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   Summary: closed=0 protected_on_retry=0",
-        "[2026-08-07 20:08:43] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   Step 2: MA cross exit (cross_exit signals only)",
-        "[2026-08-07 20:08:43] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   Summary: closed=0 dropped_not_ours=248",
-        "[2026-08-07 20:08:43] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   Step 3: Open new trades (LONG + SHORT) and place TP/SL",
-        "[2026-08-07 20:08:43] ──────────────────────────────────────────────────────",
-        "[2026-08-07 20:08:43]   Summary: opened=0 dropped=0",
-        "[2026-08-07 20:08:43] ",
-        "[2026-08-07 20:08:43] ════════════════════════════════════════════════════",
-        "[2026-08-07 20:08:43]   Run Summary",
-        "[2026-08-07 20:08:43]   Capital:        170.77025766 USDT",
-        "[2026-08-07 20:08:43]   Capacity(70%): 119.54 USDT",
-        "[2026-08-07 20:08:43]   In Use (margin): 0.00 USDT",
-        "[2026-08-07 20:08:43]   Available:       119.54 USDT",
-        "[2026-08-07 20:08:43]   Opened:          0 trade(s)",
-        "[2026-08-07 20:08:43]   Closed:          0 trade(s)",
-        "[2026-08-07 20:08:43]   Tracked total:   11 trade(s)",
-        "[2026-08-07 20:08:43]     closed                : 11",
-        "[2026-08-07 20:08:43] ════════════════════════════════════════════════════"
       ]
     }
   ]
