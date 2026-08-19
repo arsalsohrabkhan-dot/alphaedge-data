@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-19T16:08:37.286Z",
+  "lastRun": "2026-08-19T18:08:07.376Z",
   "setups": [
     {
       "id": "setup_17784567640239_0f51y",
@@ -165,7 +165,7 @@
       "status": "ok",
       "htfCount": 55,
       "ltfCount": 25,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781337825150_dhv01",
@@ -173,7 +173,7 @@
       "status": "ok",
       "htfCount": 23,
       "ltfCount": 23,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781338064805_vz8wp",
@@ -189,7 +189,7 @@
       "status": "ok",
       "htfCount": 83,
       "ltfCount": 26,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781338400021_k4qll",
@@ -205,7 +205,7 @@
       "status": "ok",
       "htfCount": 71,
       "ltfCount": 41,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781338636876_6bmnr",
@@ -237,7 +237,7 @@
       "status": "ok",
       "htfCount": 26,
       "ltfCount": 71,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781339054523_t337n",
@@ -253,7 +253,7 @@
       "status": "ok",
       "htfCount": 97,
       "ltfCount": 113,
-      "changes": 1
+      "changes": 0
     }
   ]
 }
