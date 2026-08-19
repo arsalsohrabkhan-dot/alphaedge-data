@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-19T14:07:52.591Z",
+  "lastRun": "2026-08-19T16:08:37.286Z",
   "setups": [
     {
       "id": "setup_17784567640239_0f51y",
@@ -164,8 +164,8 @@
       "name": "Solana V1",
       "status": "ok",
       "htfCount": 55,
-      "ltfCount": 24,
-      "changes": 0
+      "ltfCount": 25,
+      "changes": 1
     },
     {
       "id": "setup_1781337825150_dhv01",
@@ -173,7 +173,7 @@
       "status": "ok",
       "htfCount": 23,
       "ltfCount": 23,
-      "changes": 0
+      "changes": 1
     },
     {
       "id": "setup_1781338064805_vz8wp",
@@ -187,15 +187,15 @@
       "id": "setup_1781338266405_ejuoh",
       "name": "Solana V4",
       "status": "ok",
-      "htfCount": 82,
+      "htfCount": 83,
       "ltfCount": 26,
-      "changes": 0
+      "changes": 1
     },
     {
       "id": "setup_1781338400021_k4qll",
       "name": "Solana V5",
       "status": "ok",
-      "htfCount": 82,
+      "htfCount": 83,
       "ltfCount": 23,
       "changes": 0
     },
@@ -203,9 +203,9 @@
       "id": "setup_1781338558612_9rqtx",
       "name": "Solana V6",
       "status": "ok",
-      "htfCount": 70,
+      "htfCount": 71,
       "ltfCount": 41,
-      "changes": 0
+      "changes": 1
     },
     {
       "id": "setup_1781338636876_6bmnr",
@@ -236,8 +236,8 @@
       "name": "Solana V10",
       "status": "ok",
       "htfCount": 26,
-      "ltfCount": 70,
-      "changes": 0
+      "ltfCount": 71,
+      "changes": 1
     },
     {
       "id": "setup_1781339054523_t337n",
@@ -253,7 +253,7 @@
       "status": "ok",
       "htfCount": 97,
       "ltfCount": 113,
-      "changes": 0
+      "changes": 1
     }
   ]
 }
