@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-08-20T00:08:05.286Z",
+  "lastRun": "2026-08-20T02:08:28.852Z",
   "setups": [
     {
       "id": "setup_17784567640239_0f51y",
@@ -165,7 +165,7 @@
       "status": "ok",
       "htfCount": 55,
       "ltfCount": 25,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781337825150_dhv01",
@@ -221,7 +221,7 @@
       "status": "ok",
       "htfCount": 41,
       "ltfCount": 79,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781338870964_caxgn",
@@ -245,7 +245,7 @@
       "status": "ok",
       "htfCount": 22,
       "ltfCount": 97,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781339208612_kpl34",
