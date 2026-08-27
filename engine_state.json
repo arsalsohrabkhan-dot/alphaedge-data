@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-27T02:08:26.705Z",
+  "lastUpdated": "2026-08-27T04:07:59.342Z",
   "runningCapital": 346.64718094,
   "capitalBefore": {
     "amount": 346.64718094,
-    "checkedAt": "2026-08-27T02:08:25.639Z"
+    "checkedAt": "2026-08-27T04:07:58.365Z"
   },
   "capitalAfter": {
     "amount": 346.64718094,
-    "checkedAt": "2026-08-27T02:08:25.960Z"
+    "checkedAt": "2026-08-27T04:07:58.761Z"
   },
   "executedTrades": [
     {
@@ -914,6 +914,60 @@
     }
   ],
   "runLog": [
+    {
+      "ts": "2026-08-27T04:07:58.778Z",
+      "capital": 346.64718094,
+      "capacity": "242.65",
+      "inUse": "0.00",
+      "available": "242.65",
+      "opened": 0,
+      "closed": 0,
+      "trackedTrades": 22,
+      "byStatus": {
+        "closed": 22
+      },
+      "logLines": [
+        "[2026-08-27 04:07:58] ════════════════════════════════════════════════════",
+        "[2026-08-27 04:07:58]   Bitget USDT-M Futures Engine — Starting",
+        "[2026-08-27 04:07:58]   2026-08-27T04:07:58.359Z",
+        "[2026-08-27 04:07:58] ════════════════════════════════════════════════════",
+        "[2026-08-27 04:07:58]   Mode:      FUTURES (USDT-FUTURES) — native exchange TP/SL, both LONG + SHORT",
+        "[2026-08-27 04:07:58]   Demo mode: NO (REAL FUNDS)",
+        "[2026-08-27 04:07:58]   API ready: YES",
+        "[2026-08-27 04:07:58]   Setups:    12",
+        "[2026-08-27 04:07:58]   Capacity:  70% of capital",
+        "[2026-08-27 04:07:58]   New trades: ▶ enabled",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Step 0: Fetching live futures account equity",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   💰 Live USDT equity: 346.64718094 USDT",
+        "[2026-08-27 04:07:58]   💰 Live equity: 346.64718094 USDT",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Step 1: Monitor open trades (TP/SL outcomes + protection retries)",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Summary: closed=0 protected_on_retry=0",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Step 2: MA cross exit (cross_exit signals only)",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Summary: closed=0 dropped_not_ours=260",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Step 3: Open new trades (LONG + SHORT) and place TP/SL",
+        "[2026-08-27 04:07:58] ──────────────────────────────────────────────────────",
+        "[2026-08-27 04:07:58]   Summary: opened=0 dropped=0",
+        "[2026-08-27 04:07:58] ",
+        "[2026-08-27 04:07:58] ════════════════════════════════════════════════════",
+        "[2026-08-27 04:07:58]   Run Summary",
+        "[2026-08-27 04:07:58]   Capital:        346.64718094 USDT",
+        "[2026-08-27 04:07:58]   Capacity(70%): 242.65 USDT",
+        "[2026-08-27 04:07:58]   In Use (margin): 0.00 USDT",
+        "[2026-08-27 04:07:58]   Available:       242.65 USDT",
+        "[2026-08-27 04:07:58]   Opened:          0 trade(s)",
+        "[2026-08-27 04:07:58]   Closed:          0 trade(s)",
+        "[2026-08-27 04:07:58]   Tracked total:   22 trade(s)",
+        "[2026-08-27 04:07:58]     closed                : 22",
+        "[2026-08-27 04:07:58] ════════════════════════════════════════════════════"
+      ]
+    },
     {
       "ts": "2026-08-27T02:08:25.977Z",
       "capital": 346.64718094,
@@ -6387,73 +6441,6 @@
         "[2026-08-18 22:08:00]     closed                : 11",
         "[2026-08-18 22:08:00]     open_protected        : 5",
         "[2026-08-18 22:08:00] ════════════════════════════════════════════════════"
-      ]
-    },
-    {
-      "ts": "2026-08-18T20:08:33.861Z",
-      "capital": 1006.48111466,
-      "capacity": "704.54",
-      "inUse": "70.00",
-      "available": "634.54",
-      "opened": 1,
-      "closed": 0,
-      "trackedTrades": 16,
-      "byStatus": {
-        "closed": 11,
-        "open_protected": 5
-      },
-      "logLines": [
-        "[2026-08-18 20:08:29] ════════════════════════════════════════════════════",
-        "[2026-08-18 20:08:29]   Bitget USDT-M Futures Engine — Starting",
-        "[2026-08-18 20:08:29]   2026-08-18T20:08:29.390Z",
-        "[2026-08-18 20:08:29] ════════════════════════════════════════════════════",
-        "[2026-08-18 20:08:29]   Mode:      FUTURES (USDT-FUTURES) — native exchange TP/SL, both LONG + SHORT",
-        "[2026-08-18 20:08:29]   Demo mode: NO (REAL FUNDS)",
-        "[2026-08-18 20:08:29]   API ready: YES",
-        "[2026-08-18 20:08:29]   Setups:    12",
-        "[2026-08-18 20:08:29]   Capacity:  70% of capital",
-        "[2026-08-18 20:08:29]   New trades: ▶ enabled",
-        "[2026-08-18 20:08:29] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:29]   Step 0: Fetching live futures account equity",
-        "[2026-08-18 20:08:29] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:29]   💰 Live USDT equity: 1006.48111466 USDT",
-        "[2026-08-18 20:08:29]   💰 Live equity: 1006.48111466 USDT",
-        "[2026-08-18 20:08:29] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:29]   Step 1: Monitor open trades (TP/SL outcomes + protection retries)",
-        "[2026-08-18 20:08:29] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:30]   Summary: closed=0 protected_on_retry=0",
-        "[2026-08-18 20:08:30] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:30]   Step 2: MA cross exit (cross_exit signals only)",
-        "[2026-08-18 20:08:30] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:30]   Summary: closed=0 dropped_not_ours=249",
-        "[2026-08-18 20:08:30] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:30]   Step 3: Open new trades (LONG + SHORT) and place TP/SL",
-        "[2026-08-18 20:08:30] ──────────────────────────────────────────────────────",
-        "[2026-08-18 20:08:30]     ℹ SOLUSDT contract spec: minOrderQty=0.1  minOrderAmount=5USDT  qtyStep=0.1  qtyPrecision=1  priceTick=0.001  pricePrecision=3",
-        "[2026-08-18 20:08:30]   ▶ OPEN LONG Solana V3 [di] SOLUSDT  live=77.122  TP=88.779  SL=69.479  qty=1.2",
-        "[2026-08-18 20:08:30]     ℹ SOLUSDT LONG already has 4 other active trade(s) on Bitget (combined qty 6.800000000000001) — this open will merge into that same position; this trade's TP/SL stays independently scoped to its own qty=1.2 and won't touch theirs",
-        "[2026-08-18 20:08:31]     🟢 OPEN LONG SOLUSDT  qty=1.2  lev=5x  margin=20U  clientOid=eo_8ad1ab06_1787083711044",
-        "[2026-08-18 20:08:31]     ✅ Open order placed orderId=1473701385970348032 — polling for fill...",
-        "[2026-08-18 20:08:32]     ⏳ Open order state: filled (attempt 1/6)",
-        "[2026-08-18 20:08:32]     ✅ Open filled: qty=1.2  avgPrice=77.123",
-        "[2026-08-18 20:08:33]     🔗 Bracket lookup: tpsl_order_id=1473701386009436213",
-        "[2026-08-18 20:08:33]   ✅ OPENED Solana V3 [di] qty=1.2 fillPrice=77.123 — checking embedded TP/SL...",
-        "[2026-08-18 20:08:33]   ✅ Embedded TP/SL confirmed: tpsl_order_id=1473701386009436213 (Partial positions, qty=1.2 — confirmed correct on Bitget's own UI)",
-        "[2026-08-18 20:08:33]     ℹ SOLUSDT LONG now has 5 independently-protected trades merged into one Bitget position (combined qty 8) — each keeps its own TP/SL bracket",
-        "[2026-08-18 20:08:33]   Summary: opened=1 dropped=0",
-        "[2026-08-18 20:08:33] ",
-        "[2026-08-18 20:08:33] ════════════════════════════════════════════════════",
-        "[2026-08-18 20:08:33]   Run Summary",
-        "[2026-08-18 20:08:33]   Capital:        1006.48111466 USDT",
-        "[2026-08-18 20:08:33]   Capacity(70%): 704.54 USDT",
-        "[2026-08-18 20:08:33]   In Use (margin): 70.00 USDT",
-        "[2026-08-18 20:08:33]   Available:       634.54 USDT",
-        "[2026-08-18 20:08:33]   Opened:          1 trade(s)",
-        "[2026-08-18 20:08:33]   Closed:          0 trade(s)",
-        "[2026-08-18 20:08:33]   Tracked total:   16 trade(s)",
-        "[2026-08-18 20:08:33]     closed                : 11",
-        "[2026-08-18 20:08:33]     open_protected        : 5",
-        "[2026-08-18 20:08:33] ════════════════════════════════════════════════════"
       ]
     }
   ]
