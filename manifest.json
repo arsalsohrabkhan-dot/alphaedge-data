@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-09-19T20:08:26.251Z",
+  "lastRun": "2026-09-19T22:07:58.934Z",
   "setups": [
     {
       "id": "setup_17784567640239_0f51y",
@@ -204,8 +204,8 @@
       "name": "Solana V6",
       "status": "ok",
       "htfCount": 75,
-      "ltfCount": 42,
-      "changes": 0
+      "ltfCount": 43,
+      "changes": 1
     },
     {
       "id": "setup_1781338636876_6bmnr",
@@ -219,7 +219,7 @@
       "id": "setup_1781338791788_df83g",
       "name": "Solana V8",
       "status": "ok",
-      "htfCount": 42,
+      "htfCount": 43,
       "ltfCount": 83,
       "changes": 0
     },
@@ -227,7 +227,7 @@
       "id": "setup_1781338870964_caxgn",
       "name": "Solana V9",
       "status": "ok",
-      "htfCount": 42,
+      "htfCount": 43,
       "ltfCount": 75,
       "changes": 0
     },
