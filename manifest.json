@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-10-08T04:08:36.256Z",
+  "lastRun": "2026-10-08T06:08:30.626Z",
   "setups": [
     {
       "id": "setup_17784567640239_0f51y",
@@ -221,7 +221,7 @@
       "status": "ok",
       "htfCount": 43,
       "ltfCount": 86,
-      "changes": 1
+      "changes": 0
     },
     {
       "id": "setup_1781338870964_caxgn",
@@ -252,7 +252,7 @@
       "name": "Solana V12",
       "status": "ok",
       "htfCount": 103,
-      "ltfCount": 119,
+      "ltfCount": 120,
       "changes": 0
     }
   ]
