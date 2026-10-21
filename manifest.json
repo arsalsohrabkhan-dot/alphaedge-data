@@ -1,5 +1,5 @@
 {
-  "lastRun": "2026-10-21T18:10:44.785Z",
+  "lastRun": "2026-10-21T20:08:21.549Z",
   "setups": [
     {
       "id": "setup_17784567640239_0f51y",
@@ -165,7 +165,7 @@
       "status": "ok",
       "htfCount": 58,
       "ltfCount": 26,
-      "changes": 0
+      "changes": 1
     },
     {
       "id": "setup_1781337825150_dhv01",
@@ -173,7 +173,7 @@
       "status": "ok",
       "htfCount": 24,
       "ltfCount": 24,
-      "changes": 0
+      "changes": 1
     },
     {
       "id": "setup_1781338064805_vz8wp",
